@@ -1,0 +1,6 @@
+# TRAIN
+python im_restore.py --train True --save_model logs/models/ --logs logs/logs/
+# TEST
+python im_restore.py --dataset /usr/local/home/ssbw5/adp/FinalProject/data/test_images/moderate --load_model logs/models/
+# TEST NEW IMAGE
+python im_restore.py --dataset /usr/local/home/ssbw5/adp/FinalProject/data/test_images/mydata --new_image True --load_model logs/models/
